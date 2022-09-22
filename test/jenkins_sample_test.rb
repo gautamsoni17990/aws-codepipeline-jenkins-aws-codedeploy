@@ -3,6 +3,7 @@
 require 'net/http'
 require 'minitest/autorun'
 require 'socket'
+require 'haml'
 
 class JenkinsSampleTest < MiniTest::Unit::TestCase
   def setup
